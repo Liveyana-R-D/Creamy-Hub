@@ -1,0 +1,111 @@
+*{
+  margin: 1px;
+  padding: 1px;
+  font-family: cursive;
+  }
+  .text{
+    font-family: cursive;
+    font-variant: normal;
+  }
+header{
+	color: rgb(255, 165, 0);
+	background-color: mediumvioletred;
+	}
+.contact{
+      list-style: circle;
+      padding: 40px;
+      margin: 20px;
+      width: 300px;
+    }
+ul{
+  list-style: asterisks;
+}
+    #img{
+      height: 400px;
+      width: 500px;  
+      border: 1px;
+      border-radius: 1%;
+    }
+      body{
+      background-repeat: no-repeat;
+      background-size: cover; 
+    }
+    .text{
+      background-color: #ffffff;
+      font-size: 25px;
+      opacity: 0.8;
+      font-weight: bold;  
+      color: #000000;
+    }
+    img
+    {
+      height: 60px;
+      border-radius: 50%;
+      border: 12px;
+      float: left;
+    }
+    .creamyhub
+    {
+      float: center;
+      font-family: cursive;
+      text-align: center;
+     
+      font-size: 50px;
+      
+      font-weight: bold;
+      color: white;
+    }
+    .dp{
+      height: 10px;
+      width: 20px;
+      float: right;
+    }
+    p{
+      font-style: italic;
+    }
+    .contacttext
+    {
+      background-color: #ffffff;
+      font-size: 19px;
+      opacity: 0.8;
+      font-weight: bold;
+    }
+   .hover-image:hover {
+      transform: scale(1.1); /* Zoom effect on hover */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+/* Optional: Add additional hover effects */
+.hover-image:active {
+   transform: scale(0.95); /* Slightly shrink the image on click */
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+  font-size: 19px;
+}
+.dropdown-img {
+    cursor: pointer;   
+    transition: transform 0.3s ease;
+}
+.dropdown-img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+.dropdown-menu {
+    display: none; /* Hide the dropdown menu by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-menu a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+}
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
